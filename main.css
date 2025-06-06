@@ -211,6 +211,7 @@ p strong {
 }
 footer {
   padding: 20px;
+  padding-left: 3%;
 }
 footer a {
   color: var(--fouColor);
@@ -219,5 +220,4 @@ footer a {
 footer i {
   padding: 10px;
   font-size: 20px;
-  padding-left: 20%;
 }
