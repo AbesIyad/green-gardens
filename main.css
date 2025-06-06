@@ -8,6 +8,7 @@
 body {
   margin: 0;
   font-family: "Share Tech", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -27,6 +28,7 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 69;
 }
 header .logo {
   align-self: flex-start;
@@ -40,6 +42,13 @@ header .logo {
   background-color: var(--mainColor);
   border-radius: 5%;
   letter-spacing: -2px;
+}
+.menu {
+  display: none;
+}
+header .material-symbols-outlined,
+header input {
+  display: none;
 }
 header nav {
   transform: translateY(-150%);
@@ -138,7 +147,7 @@ main .hero::after {
   width: 5px;
   height: 100%;
   background-color: var(--mainColor);
-  left: 10%;
+  left: 5%;
 }
 .services .button {
   margin: 0;
